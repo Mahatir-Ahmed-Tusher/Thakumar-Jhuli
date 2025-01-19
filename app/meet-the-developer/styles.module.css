@@ -1,0 +1,88 @@
+.imageContainer {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 2rem;
+}
+
+.glitchImage {
+  position: relative;
+  border-radius: 50%;
+  animation: glitch 2s infinite;
+}
+
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+    filter: none;
+  }
+  2% {
+    transform: translate(-3px, 2px);
+    filter: hue-rotate(90deg);
+  }
+  4% {
+    transform: translate(3px, -2px);
+    filter: hue-rotate(-90deg);
+  }
+  5% {
+    transform: translate(0);
+    filter: none;
+  }
+  95% {
+    transform: translate(0);
+    filter: none;
+  }
+  96% {
+    transform: translate(2px, 3px);
+    filter: brightness(1.2) contrast(1.5);
+  }
+  98% {
+    transform: translate(-2px, -3px);
+    filter: brightness(0.8) contrast(1.2);
+  }
+  100% {
+    transform: translate(0);
+    filter: none;
+  }
+}
+
+.glitchImage::before,
+.glitchImage::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  background: inherit;
+  animation: glitchLayers 4s infinite;
+}
+
+.glitchImage::before {
+  animation-delay: -1s;
+}
+
+.glitchImage::after {
+  animation-delay: -2s;
+}
+
+@keyframes glitchLayers {
+  0% {
+    transform: translate(0);
+    opacity: 0;
+  }
+  2% {
+    transform: translate(-2px, 2px);
+    opacity: 0.3;
+  }
+  4% {
+    transform: translate(2px, -2px);
+    opacity: 0.3;
+  }
+  5% {
+    transform: translate(0);
+    opacity: 0;
+  }
+}
+
