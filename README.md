@@ -1,6 +1,8 @@
 # Thakumar Jhuli
 
 Thakumar Jhuli is an AI-powered storytelling and creative writing assistant inspired by the timeless Bengali folklore collection. This modern web application combines cutting-edge AI technology with a rich feature set to help users create, analyze, and refine their content across multiple domains. 
+![image](https://github.com/user-attachments/assets/4c9bb056-6f10-496d-87cc-7e542a7875cf)
+
 
 ---
 
@@ -19,6 +21,7 @@ Thakumar Jhuli is an AI-powered storytelling and creative writing assistant insp
 ---
 
 ## Overview
+![image](https://github.com/user-attachments/assets/d4aeed05-4636-49cc-9d41-8066b55a1fed)
 
 Thakumar Jhuli serves as a comprehensive platform for writers, students, and creative individuals. From generating stories, poetry, and scientific articles to analyzing literature and refining existing content, this application provides tools that are intuitive and user-friendly. The name is a tribute to the enchanting stories of Bengal, reimagined with AI.
 
@@ -29,10 +32,12 @@ Thakumar Jhuli serves as a comprehensive platform for writers, students, and cre
 ### Creative Writing
 - **Story Generator:** Interactive story creation with customizable genres, characters, and plot elements.
 - **Poetry Generator:** Create poems in various styles, moods, and genres, including emulations of famous poets.
+![image](https://github.com/user-attachments/assets/94b0fcaa-5b12-48ba-ac67-a3521ff1ff5e)
 
 ### Analytical Tools
 - **Literature Analysis:** Summarize, critique, and explain literary works, including poems and stories.
 - **Philosophy Explorer:** Dive into philosophical concepts with detailed explanations.
+![image](https://github.com/user-attachments/assets/8c0f0712-f4b9-4b6d-8713-c2eecd89c21f)
 
 ### AI-Powered Assistants
 - **Writing Enhancer:** Refine user-written content for grammar, style, and clarity.
@@ -47,6 +52,7 @@ Thakumar Jhuli serves as a comprehensive platform for writers, students, and cre
 - **Grammar & Style Checker:** Analyze and improve text with specific suggestions.
 - **Paraphraser:** Rewrite text while preserving the original meaning.
 - **AI Writing Coach:** Real-time writing advice for skill improvement.
+![image](https://github.com/user-attachments/assets/80e4648b-08b1-4995-9201-543a3d41cd4b)
 
 ### User Experience
 - **Dark/Light Mode:** Switch between themes for better usability.
@@ -115,6 +121,7 @@ npm run build
 npm start
 ```
 ## File Structure
+ ```bash
 thakumar-jhuli/
 │
 ├── app/                    # Frontend pages and components
@@ -132,7 +139,7 @@ thakumar-jhuli/
 ├── tailwind.config.js      # Tailwind CSS configuration
 ├── postcss.config.js       # PostCSS configuration
 └── README.md               # Project readme file
-
+```
 ##Security
 Sensitive information, such as API keys, is stored in environment variables (.env.local).
 All API calls are made server-side to protect sensitive data.
