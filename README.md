@@ -8,12 +8,12 @@ Thakumar Jhuli is an AI-powered storytelling and creative writing assistant insp
 
 ## Table of Contents
 
-1. [Overview](#overview)  
-2. [Features](#features)  
-3. [Technology Stack](#technology-stack)  
-4. [Installation and Setup](#installation-and-setup)  
+1. [Overview](##overview)  
+2. [Features](##features)  
+3. [Technology Stack](##technology-stack)  
+4. [Installation and Setup](##installation-and-setup)  
 5. [Usage](#usage)  
-6. [File Structure](#file-structure)  
+6. [File Structure](##file-structure)  
 7. [Security](#security)  
 8. [Developer Tools](#developer-tools)  
 9. [Legal and Information](#legal-and-information)  
