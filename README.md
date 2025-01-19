@@ -174,9 +174,6 @@ Support
 For issues or suggestions, please reach out to:
 Email: mahatirtusher@gmail.com
 
-## Live Link
-
-
 ## Acknowledgments
 Inspired by the timeless tales of Bengal and powered by modern AI, Thakumar Jhuli is dedicated to all storytellers, thinkers, and creative minds.
 
