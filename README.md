@@ -62,6 +62,29 @@ Thakumar Jhuli serves as a comprehensive platform for writers, students, and cre
 
 ---
 
+## Live Version
+
+You can explore the live version of **Thakumar Jhuli** at the following link:
+
+[Thakumar Jhuli - Live](https://amraabwnn1vfgoxc.vercel.app/)
+
+Visit the live website to experience the interactive AI-powered storytelling and creative writing assistant features in real time.
+
+---
+
+### How to Use the Live Version
+
+1. Go to the live link: [https://amraabwnn1vfgoxc.vercel.app/](https://amraabwnn1vfgoxc.vercel.app/)
+2. You can start by selecting any writing or storytelling feature from the homepage.
+3. Input your parameters (e.g., story genre, characters, or writing prompts) and let the AI generate content.
+4. Explore the various features such as:
+   - Story Generation
+   - Poetry Generation
+   - Email Generator
+   - Grammar & Style Checker
+   - Social Media Assistance
+5. You can also provide feedback and suggestions through the interactive forms.
+
 ## Technology Stack
 
 ### Frontend
@@ -151,8 +174,8 @@ Support
 For issues or suggestions, please reach out to:
 Email: mahatirtusher@gmail.com
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+## Live Link
+
 
 ## Acknowledgments
 Inspired by the timeless tales of Bengal and powered by modern AI, Thakumar Jhuli is dedicated to all storytellers, thinkers, and creative minds.
